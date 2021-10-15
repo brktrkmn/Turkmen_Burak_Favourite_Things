@@ -31,7 +31,7 @@ let things = {};
             panel.classList.remove("hidden");
             let containers = panel.children;
             
-            // containers[0].querySelector("img").src = `images/${things[this.dataset.key].pic}`;
+            containers[0].querySelector("img").src = `images/${things[this.dataset.key].pic}`;
             containers[1].textContent = things[this.dataset.key].name;
               }
         else {
@@ -41,3 +41,4 @@ let things = {};
 
     buttons.forEach(btn => (btn.addEventListener("click", buildData)));
 
+    getData();
