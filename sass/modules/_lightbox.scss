@@ -20,7 +20,7 @@
   justify-content: center;
   background-color: $main-background-color;
   max-width: 80vh;
-  margin: 0 auto;
+  margin: auto;
   background-color: #fff1e1;
   color: #1d3c45;
   border: 2px outset #d2601a;
@@ -62,4 +62,9 @@
     width: 300px;
     margin-top: 1em;
   }
+}
+
+.p-description {
+  text-align: left;
+  margin-bottom: 2em;
 }
