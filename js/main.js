@@ -3,11 +3,6 @@ const buttons = document.querySelectorAll(".button");
 let things = {};
     
 
-    // let     buttons = document.querySelectorAll("button"),
-    //         theTemplate = document.querySelector("#bio-template").content;
-            // favourites = document.querySelector('.favourites'),
-            // favouriteButtons = document.querySelectorAll(".favourites-button"),
-
     // set up a Fetch function and get some data
     function getData() {
         // retrieve our data object
@@ -16,8 +11,6 @@ let things = {};
             .then(data => {
 
                 things = data;
-
-                // buildControls(data);
                 
             })
         .catch(error => console.error(error));
@@ -34,6 +27,7 @@ let things = {};
             containers[0].querySelector("img").src = `images/${things[this.dataset.key].pic}`;
             containers[1].textContent = things[this.dataset.key].name;
             containers[2].textContent = things[this.dataset.key].description;
+            containers[3].textContent = things[this.dataset.key].what;
               }
         else {
             panel.classList.add("hidden");
@@ -48,9 +42,6 @@ let things = {};
     let fadeIn = document.querySelector(".bio-panel");
     document.querySelector(".button").onclick = function() {
         fadeIn.classList.add("fade");
-    
-  
-
     };
 
   
