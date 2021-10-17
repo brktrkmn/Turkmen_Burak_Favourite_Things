@@ -33,6 +33,7 @@ let things = {};
             
             containers[0].querySelector("img").src = `images/${things[this.dataset.key].pic}`;
             containers[1].textContent = things[this.dataset.key].name;
+            containers[2].textContent = things[this.dataset.key].description;
               }
         else {
             panel.classList.add("hidden");
@@ -42,3 +43,18 @@ let things = {};
     buttons.forEach(btn => (btn.addEventListener("click", buildData)));
 
     getData();
+
+
+    let fadeIn = document.querySelector(".bio-panel");
+    document.querySelector(".button").onclick = function() {
+        fadeIn.classList.add("fade");
+    
+  
+
+    };
+
+  
+
+
+
+    
