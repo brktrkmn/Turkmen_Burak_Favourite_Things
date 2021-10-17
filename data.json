@@ -3,18 +3,18 @@
         "name":"Motion design",
         "description":"I always loved to draw abstract things on paper. That interest actually helped me to relax and to survive many boring work-meetings. And many years later, my path crossed with After Effects. Our friendship is growing each day..",
         "favourite":"After Effects",
-        "pic":"justin.jpg"
+        "pic":"carrots.gif"
     },
     "Music": {
         "name":"Listening to music",
         "description":"Music is a basic need of my survival. It gets me excited, or make them calm and relaxed(even if it is very heavy).",
         "favourite":"Led Zeppelin, Tool",
-        "pic":"john.jpg"
+        "pic":"john-bonham.gif"
     },
     "Watching": {
         "name":"Watching stuff",
         "description":"Life can be boring, and can be hard to change, but it is easy to change what you watch.",
         "favourite":"Seinfeld",
-        "pic":"joe.jpg"
+        "pic":"netflix-logo.gif"
   }
 }

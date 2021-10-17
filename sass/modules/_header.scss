@@ -1,0 +1,30 @@
+.fav_container {
+  h1 {
+    font-size: 1em;
+  }
+}
+
+.hello {
+  opacity: 0;
+  animation: appear 1s ease-in forwards 1s;
+}
+
+.i_like {
+  opacity: 0;
+  animation: appear 1s ease-in forwards 2s;
+}
+
+.here {
+  opacity: 0;
+  animation: appear 1s ease-in forwards 3s;
+  font: $main-font;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
